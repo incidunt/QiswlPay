@@ -77,7 +77,7 @@ class ZfbMayiController extends PayController
         if($this->isMobile2()){
             $this->display("WeiXin/mayijump");
         }else{
-            echo "";
+            $this->display("WeiXin/mayijump_pc");
         }
 	
    }
